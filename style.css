@@ -133,7 +133,7 @@ body {
     cursor: pointer;
 }
 
-#volume-bar::-webkit-slider-thumb {
+#volume-bar: {
     -webkit-appearance: none; /* Remove default thumb styles */
     width: 30px;
     height: 18px;
