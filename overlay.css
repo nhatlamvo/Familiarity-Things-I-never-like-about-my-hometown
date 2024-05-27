@@ -1,0 +1,136 @@
+.nav button {
+    display: flexbox;
+    position: relative;
+    border: none;
+    margin: 0;
+    float: left;
+    /* padding-left: 20%; */
+    left: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    /* width: auto; */
+    cursor: pointer;
+}
+.nav {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* overlay */
+#video01,
+#video02,
+#video03,
+#video04,
+#video05,
+#video06,
+#video07,
+#video08,
+#video09,
+#video10 {
+    display: none;
+    top: 10vh;
+    left: 0;
+    /* background: white; */
+    width: 100%;
+    height: 100%;
+    position: absolute; /*enable scrolling*/
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: none;
+    margin: 0;
+    z-index: 5;
+    /* overflow: auto; */
+}
+#listen01 p,
+#listen02 p,
+#listen03 p,
+#listen04 p,
+#listen05 p,
+#listen06 p,
+#listen07 p,
+#listen08 p,
+#listen09 p,
+#listen10 p {
+    text-align: left;
+}
+#close01 p,
+#close02 p,
+#close03 p,
+#close04 p,
+#close05 p,
+#close06 p,
+#close07 p,
+#close08 p,
+#close09 p,
+#close10 p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: right;
+}
+
+#read01,
+#read02,
+#read03,
+#read04,
+#read05,
+#read06,
+#read07,
+#read08,
+#read09,
+#read10 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    position: fixed;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    width: 60%;
+    height: auto;
+    padding-bottom: 10vh;
+    /* overflow: scroll; */
+    /* left: 20%; */
+    cursor: none;
+    z-index: -1;
+
+    /* background-repeat: repeat-y; */
+    /* background-size: 100%; */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    /* top: 0; */
+    left: 0;
+    /* padding-bottom: 6vh; */
+    /* padding-top: 10vh; */
+    /* padding: 1vh; */
+    position: relative;
+    cursor: none;
+}
+
+audio {
+    display: none;
+}
+/* .overlay::-webkit-scrollbar {
+    display: none;
+} */
+.overlay {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    /* overflow: scroll; */
+}

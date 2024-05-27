@@ -1,0 +1,265 @@
+/*--------------------Font family defining--------------------*/
+.quicksand-<uniquifier > {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*----------------------------Homepage Setting----------------------------*/
+body {
+    background-color: white;
+    /* overflow: auto; */
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    color: black;
+    cursor: none;
+    width: 100%;
+    height: auto;
+    border: none;
+    margin: 0;
+}
+
+/*--------------------Title on top-right corner--------------------*/
+.header p {
+    font-size: 16px;
+    line-height: 24px;
+    position: fixed;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vhvh;
+    margin: 0;
+    background: white, 0.5;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    text-align: justify;
+}
+
+/*--------------------Blurb | Overlay--------------------*/
+.blurb {
+    position: absolute;
+    /* display: inline; */
+    /* background-color: rgba(235, 55, 255, 0.5); */
+    background-color: white, 0.8;
+    background-image: url(image/grid.png);
+    /* background-position: bottom; */
+    background-repeat: repeat-y;
+    background-size: 100%;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    /* align-items: center; */
+    /* text-align: left; */
+    display: none;
+    overflow: auto;
+}
+/* .blurb::-webkit-scrollbar {
+    display: none;
+} */
+.navigate p {
+    text-align: justify;
+}
+#about p {
+    padding-left: 25vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    margin: 0;
+    font-size: 16px;
+    line-height: 18px;
+    left: 0;
+    /* top: 0; */
+    z-index: 3;
+    /* float: left; */
+    width: 200px;
+    text-align: justify-all;
+}
+
+/*to close the blurb*/
+#close p {
+    padding-right: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    right: 0;
+    float: right;
+    cursor: pointer;
+}
+
+#info p {
+    font-size: 16px;
+    line-height: 28px;
+    /* padding-top: 15vh;*/
+    padding-left: 25vh;
+    padding-right: 10vh;
+    padding-top: 10vh;
+    margin: 0;
+    /* top: 20vh; */
+    left: 0;
+    z-index: 3;
+    text-align: left;
+    overflow: scroll;
+}
+#about img {
+    width: 30px;
+    height: auto;
+    padding-right: 5px;
+}
+/*disable button's style*/
+button {
+    border: none;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    /* background-color: white; */
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+a:link {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------Menu--------------------*/
+.content ul {
+    /* text-shadow:
+            0 0 5px purple,
+            0 0 8px orange; */
+    font-size: 24px;
+    line-height: 28px;
+    position: fixed;
+    display: inline-block;
+    list-style-type: none;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    padding-left: 5vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    /* overflow-x: scroll; */
+    /* width: 100%; */
+    /* float: left; */
+    /* overflow: scroll; */
+    /* white-space: nowrap; */
+}
+li {
+    cursor: pointer;
+    padding-right: 1.5vh;
+    float: left;
+    /* height: 60px; */
+    /* left: 0; */
+}
+
+li:nth-child(even) {
+    transform: translateY(-35px);
+}
+/*--------------------Effects when hovering buttons--------------------*/
+li p:hover {
+    text-shadow: 0 0 10px #f6ff08;
+    background-image: url(image/grid2.png);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+a:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 0 10px #f6ff08;
+    background-image: url(image/grid2.png);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+button:hover {
+    text-shadow: 0 0 10px #f6ff08;
+    background-image: url(image/grid2.png);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+#close p:hover {
+    text-shadow: 0 0 10px #f6ff08;
+}
+
+/*--------------------Settings for Responsiveness--------------------*/
+@media screen and (max-width: 1000px) {
+    #read01 p,
+    #read02 p,
+    #read03 p,
+    #read04 p,
+    #read05 p,
+    #read06 p,
+    #read07 p,
+    #read08 p,
+    #read09 p,
+    #read10 p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .content ul {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 2.5vh;
+    }
+    .content li {
+        height: 25px;
+        padding-bottom: 2vh;
+    }
+    .content li:nth-child(even) {
+        transform: none;
+    }
+
+    .header p {
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+        padding-bottom: 1vh;
+        width: 90%;
+        line-height: 12px;
+    }
+    #info p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 10vh;
+        padding-right: 5vh;
+    }
+    #about p {
+        padding-left: 10vh;
+        width: 145px;
+    }
+    #close p {
+        padding-right: 5vh;
+    }
+    .blurb p {
+        display: inline-block;
+    }
+    video {
+        padding-top: 3vh;
+    }
+}
