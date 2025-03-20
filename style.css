@@ -21,8 +21,8 @@ body {
 
 /*--------------------Title on top-right corner--------------------*/
 .header p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
     position: fixed;
     padding-top: 2vh;
     padding-bottom: 1vh;
@@ -70,12 +70,12 @@ body {
     text-align: justify;
 }
 #about p {
-    padding-left: 25vh;
+    padding-left: 20vh;
     padding-top: 2vh;
     padding-bottom: 1vh;
     margin: 0;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 24px;
+    line-height: 32px;
     left: 0;
     /* top: 0; */
     z-index: 3;
@@ -100,9 +100,9 @@ body {
 
 #info p {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 32px;
     /* padding-top: 15vh;*/
-    padding-left: 25vh;
+    padding-left: 20vh;
     padding-right: 10vh;
     padding-top: 10vh;
     margin: 0;
@@ -168,7 +168,7 @@ button {
 
 a:link {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
@@ -177,7 +177,7 @@ a:link {
 }
 a:visited {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
@@ -191,7 +191,7 @@ a:visited {
             0 0 5px purple,
             0 0 8px orange; */
     font-size: 24px;
-    line-height: 28px;
+    line-height: 32px;
     position: fixed;
     display: inline-block;
     list-style-type: none;
