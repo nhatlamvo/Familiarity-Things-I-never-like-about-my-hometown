@@ -113,7 +113,7 @@
     /* left: 20%; */
     cursor: none;
     z-index: -1;
-    mix-blend-mode: exclusion;
+
     /* -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px); */
 
@@ -124,11 +124,7 @@
 video {
     width: 100%;
     height: auto;
-    /* top: 0; */
     left: 0;
-    /* padding-bottom: 6vh; */
-    /* padding-top: 10vh; */
-    /* padding: 1vh; */
     position: relative;
     cursor: none;
 }
