@@ -76,12 +76,12 @@ body {
     padding-bottom: 2vh;
     margin: 0;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 24px;
     left: 0;
     /* top: 0; */
     z-index: 3;
     /* float: left; */
-    width: 220px;
+    width: 180px;
     text-align: left;
 }
 
@@ -111,8 +111,8 @@ body {
     left: 0;
     z-index: 3;
     text-align: left;
-    overflow: scroll;
-      width: 220px;
+    /* overflow: scroll; */
+    width: 220px;
 
 }
 #about img {
