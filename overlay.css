@@ -132,12 +132,12 @@ video {
 audio {
     display: none;
 }
-.overlay::-webkit-scrollbar {
+/* .overlay::-webkit-scrollbar {
     display: none;
-}
+}*/
 .overlay {
     width: 100%;
-    height: auto;
+    height: 100%;
     border: none;
     margin: 0;
 }
