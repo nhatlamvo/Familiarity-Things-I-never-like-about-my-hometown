@@ -40,8 +40,8 @@
     height: 100%;
     position: absolute; /*enable scrolling*/
     background-color: rgba(255, 255, 255, 0.5);
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    /* -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); */
     border: none;
     margin: 0;
     z-index: 5;
