@@ -61,7 +61,7 @@ body {
     right: 0;
     z-index: 10;
     display: none;
-    /* overflow: auto;*/
+    overflow: auto;
 }
 /* .blurb::-webkit-scrollbar {
     display: none;
