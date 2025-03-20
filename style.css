@@ -12,8 +12,8 @@ body {
     background-size: contain;
     background-color: white;
     /* backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-    font-family: "Gentium Plus", serif; */
+  -webkit-backdrop-filter: blur(2px);*/
+    font-family: "Gentium Plus", serif;
     font-style: normal;
     color: black;
     cursor: none;
