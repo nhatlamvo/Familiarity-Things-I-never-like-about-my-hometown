@@ -36,7 +36,7 @@ body {
     padding-right: 5vhvh;
     margin: 0;
     background: white, 0.5;
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(4px); */
     width: 100%;
     top: 0;
     left: 0;
