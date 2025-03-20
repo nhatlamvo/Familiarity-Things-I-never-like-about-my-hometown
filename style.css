@@ -75,14 +75,14 @@ body {
     padding-top: 2vh;
     padding-bottom: 2vh;
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     left: 0;
     /* top: 0; */
     z-index: 3;
     /* float: left; */
     width: 220px;
-    text-align: justify-all;
+    text-align: left;
 }
 
 /*to close the blurb*/
@@ -100,7 +100,7 @@ body {
 }
 
 #info p {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 32px;
     /* padding-top: 15vh;*/
     padding-left: 20vh;
@@ -112,6 +112,8 @@ body {
     z-index: 3;
     text-align: left;
     overflow: scroll;
+      width: 220px;
+
 }
 #about img {
     width: 30px;
