@@ -113,8 +113,8 @@
     /* left: 20%; */
     cursor: none;
     z-index: -1;
-    /* mix-blend-mode: different;
-    -webkit-backdrop-filter: blur(4px);
+    mix-blend-mode: difference;
+    /* -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px); */
 
     /* background-repeat: repeat-y; */
@@ -144,5 +144,4 @@ audio {
     height: auto;
     border: none;
     margin: 0;
-    mix-blend-mode: difference;
 }
