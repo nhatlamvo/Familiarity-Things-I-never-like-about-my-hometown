@@ -58,6 +58,9 @@
 #listen10 p {
     text-align: left;
     font-family: "Pinyon Script", cursive;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
 }
 #close01 p,
 #close02 p,
@@ -70,7 +73,7 @@
 #close09 p,
 #close10 p {
     font-family: "Pinyon Script", cursive;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
     font-style: normal;
     text-align: right;
@@ -88,7 +91,7 @@
 #read10 {
     font-family: "Gentium", serif;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 32px;
     font-style: normal;
     text-align: left;
     color: black;
