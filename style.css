@@ -162,7 +162,7 @@ body {
 button {
     border: none;
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
@@ -174,7 +174,7 @@ button {
 
 a:link {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
