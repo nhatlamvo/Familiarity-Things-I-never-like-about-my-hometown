@@ -74,7 +74,7 @@ body {
     padding-top: 2vh;
     padding-bottom: 1vh;
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     left: 0;
     /* top: 0; */
@@ -99,7 +99,7 @@ body {
 }
 
 #info p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     /* padding-top: 15vh;*/
     padding-left: 20vh;
