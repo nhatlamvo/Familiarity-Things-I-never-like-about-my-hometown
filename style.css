@@ -8,6 +8,10 @@
 /*----------------------------Homepage Setting----------------------------*/
 body {
     background-image: url(image/bgg.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: white;
     /* overflow: auto; */
     font-family: "Gentium Plus", serif;
@@ -19,6 +23,7 @@ body {
     border: none;
     margin: 0;
 }
+
 
 /*--------------------Title on top-right corner--------------------*/
 .header p {
