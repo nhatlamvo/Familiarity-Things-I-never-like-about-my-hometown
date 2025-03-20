@@ -6,8 +6,8 @@
     float: left;
     /* padding-left: 20%; */
     left: 0;
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
+    font-family: "Pinyon Script", cursive;
+    font-size: 24px;
     line-height: 24px;
     font-style: normal;
     /* width: auto; */
@@ -57,6 +57,7 @@
 #listen09 p,
 #listen10 p {
     text-align: left;
+    font-family: "Pinyon Script", cursive;
 }
 #close01 p,
 #close02 p,
@@ -68,8 +69,8 @@
 #close08 p,
 #close09 p,
 #close10 p {
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
+    font-family: "Pinyon Script", cursive;
+    font-size: 24px;
     line-height: 24px;
     font-style: normal;
     text-align: right;
@@ -85,7 +86,7 @@
 #read08,
 #read09,
 #read10 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Gentium", serif;
     font-size: 24px;
     line-height: 36px;
     font-style: normal;
