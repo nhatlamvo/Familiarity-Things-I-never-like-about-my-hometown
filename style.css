@@ -46,7 +46,7 @@ body {
 
 /*--------------------Blurb | Overlay--------------------*/
 .blurb {
-    mix-blend-mode: difference;
+    
     position: absolute;
     /* display: inline; */
     /* background-color: rgba(235, 55, 255, 0.5); */
