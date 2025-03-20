@@ -8,13 +8,12 @@
 /*----------------------------Homepage Setting----------------------------*/
 body {
     background-image: url(image/bgg.jpeg);
-    height: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: white;
-    filter: blur(2px);
-  -webkit-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
     font-family: "Gentium Plus", serif;
     font-style: normal;
     color: black;
