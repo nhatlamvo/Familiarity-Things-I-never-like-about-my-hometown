@@ -266,8 +266,8 @@ button:hover {
         line-height: 28px;
     }
     .content ul {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 28px;
         padding-left: 2.5vh;
     }
     .content li {
@@ -283,11 +283,11 @@ button:hover {
         padding-right: 2.5vh;
         padding-bottom: 1vh;
         width: 90%;
-        line-height: 12px;
+        line-height: 32px;
     }
     #info p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 28px;
         padding-left: 10vh;
         padding-right: 5vh;
     }
