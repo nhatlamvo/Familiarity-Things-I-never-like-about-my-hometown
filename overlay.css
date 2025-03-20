@@ -113,8 +113,9 @@
     /* left: 20%; */
     cursor: none;
     z-index: -1;
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    mix-blend-mode: different;
+    /* -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); */
 
     /* background-repeat: repeat-y; */
     /* background-size: 100%; */
