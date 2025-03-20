@@ -33,9 +33,9 @@ body {
     padding-top: 2vh;
     padding-bottom: 1vh;
     padding-left: 5vh;
-    padding-right: 5vhvh;
+    padding-right: 5vh;
     margin: 0;
-    background: white, 0.5;
+    background: white;
     /* backdrop-filter: blur(4px); */
     width: 100%;
     top: 0;
@@ -61,7 +61,7 @@ body {
     right: 0;
     z-index: 10;
     display: none;
-    overflow: auto;
+    /* overflow: auto; */
 }
 /* .blurb::-webkit-scrollbar {
     display: none;
@@ -188,9 +188,7 @@ a:visited {
 
 /*--------------------Menu--------------------*/
 .content ul {
-    /* text-shadow:
-            0 0 5px purple,
-            0 0 8px orange; */
+    
     font-size: 24px;
     line-height: 32px;
     position: fixed;
