@@ -22,7 +22,10 @@ body {
     border: none;
     margin: 0;
 }
-
+body img {
+  top: 0;
+  left: 0
+}
 
 
 /*--------------------Title on top-right corner--------------------*/
