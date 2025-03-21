@@ -56,7 +56,6 @@ r.nav button {
 #listen08 p,
 #listen09 p,
 #listen10 p {
-    position: absolute;
     text-align: left;
     font-family: "Pinyon Script", cursive;
     font-size: 20px;
@@ -73,7 +72,6 @@ r.nav button {
 #close08 p,
 #close09 p,
 #close10 p {
-    position: absolute;
     font-family: "Pinyon Script", cursive;
     font-size: 20px;
     line-height: 24px;
@@ -91,7 +89,6 @@ r.nav button {
 #read08,
 #read09,
 #read10 {
-    position: absolute;
     font-family: "Gentium Plus", serif;
     font-size: 24px;
     line-height: 36px;
@@ -101,8 +98,8 @@ r.nav button {
     align-items: center;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 3vh;
-    padding-bottom: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 15vh;
     width: 60%;
     height: auto;
     /* overflow: scroll; */
