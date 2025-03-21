@@ -1,4 +1,7 @@
-ter
+body {
+    background-color: white;
+    background-image: none;
+}
 .nav button {
     display: inline;
     position: relative;
@@ -56,7 +59,7 @@ ter
 #listen08 p,
 #listen09 p,
 #listen10 p {
-    text-align: left;
+    text-align: center;
     font-family: "Pinyon Script", cursive;
     font-size: 28px;
     line-height: 24px;
@@ -76,7 +79,7 @@ ter
     font-size: 28px;
     line-height: 24px;
     font-style: normal;
-    text-align: right;
+    text-align: center;
 }
 
 #read01,
@@ -128,7 +131,7 @@ audio {
     display: none;
 }*/
 .overlay {
-align-items: flex-start;
+
 /*     width: 100%;
     height: 100%;
     border: none;
