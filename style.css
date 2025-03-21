@@ -125,14 +125,14 @@ body {
     display: flex;
     align-items: center;
     width: 160px; /* Adjust width as needed */
-    padding-left: 25vh;
+    padding-left: 20vh;
     padding-top: 1vh;
 }
 /* volumn bar for soundscape */
 #volume-bar {
     -webkit-appearance: none; /* Remove default slider styles */
     width: 100%;
-    height: 3px; /* Adjust height as needed */
+    height: 5px; /* Adjust height as needed */
     border-radius: 5px;
     background: black; /* Gradient for visual effect */
     cursor: pointer;
