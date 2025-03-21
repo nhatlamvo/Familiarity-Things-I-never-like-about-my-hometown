@@ -7,4 +7,5 @@ div.cursor img {
     z-index: 1000;
     pointer-events: none;
     transform: translate(-40%, -40%);
+    mix-blend-mode: difference;
 }
