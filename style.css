@@ -8,7 +8,7 @@
 /*----------------------------Homepage Setting----------------------------*/
 body {
     background-image: url(image/bgg.jpg);
-/*     background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: white;
@@ -195,7 +195,9 @@ a:visited {
     font-size: 24px;
     line-height: 32px;
     position: fixed;
-    display: inline-block;
+/*     display: inline-block; */
+    display: flex;
+    flex-wrap: nowrap;
     list-style-type: none;
     bottom: 0;
     margin: 0;
@@ -267,6 +269,7 @@ button:hover {
         font-size: 20px;
         line-height: 28px;
         padding-left: 2.5vh;
+        flex-wrap: wrap;
     }
     .content li {
         height: 25px;
