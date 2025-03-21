@@ -7,14 +7,13 @@ body {
 }
 .nav button {
     display: flexbox;
-    position: relative;
+    position: absolute;
     border: none;
     margin: 0;
-    float: left;
     /* padding-left: 20%; */
     left: 0;
     font-family: "Pinyon Script", cursive;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 24px;
     font-style: normal;
     /* width: auto; */
