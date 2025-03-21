@@ -73,7 +73,7 @@ body {
     padding-top: 2vh;
     padding-bottom: 2vh;
     margin: 0;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 24px;
     left: 0;
     /* top: 0; */
@@ -89,7 +89,7 @@ body {
     padding-top: 2vh;
     padding-bottom: 1vh;
     margin: 0;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 24px;
     right: 0;
     float: right;
@@ -170,7 +170,7 @@ button {
 
 a:link {
     margin: 0;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 32px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
@@ -179,7 +179,7 @@ a:link {
 }
 a:visited {
     margin: 0;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 32px;
     font-family: "Pinyon Script", cursive;
     font-style: normal;
@@ -201,7 +201,7 @@ a:visited {
     padding-left: 5vh;
     text-align: center;
     padding-bottom: 2vh;
-      z-index: 9;
+    
 
     /* overflow-x: scroll; */
     /* width: 100%; */
@@ -212,7 +212,7 @@ li {
     cursor: pointer;
     padding-right: 1.5vh;
     float: left;
-    z-index: 9;
+    
     /* height: 60px; */
     /* left: 0; */
 }
