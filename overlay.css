@@ -1,6 +1,7 @@
 
 .nav button {
-    display: flexbox;
+    display: flex;
+    flex-wrap: nowrap;
     position: relative;
     border: none;
     margin: 0;
@@ -14,6 +15,7 @@
     cursor: pointer;
 }
 .nav {
+    items-align: 
     padding-top: 5vh;
     padding-bottom: 2vh;
     width: 60%;
@@ -61,7 +63,6 @@
     font-size: 28px;
     line-height: 24px;
     font-style: normal;
-    float: left;
 }
 #close01 p,
 #close02 p,
@@ -78,7 +79,6 @@
     line-height: 24px;
     font-style: normal;
     text-align: right;
-    float: right;
 }
 
 #read01,
@@ -97,7 +97,6 @@
     font-style: normal;
     text-align: center;
     color: black;
-    align-items: center;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 2vh;
@@ -131,7 +130,7 @@ audio {
     display: none;
 }*/
 .overlay {
-
+align-items: flex-start;
 /*     width: 100%;
     height: 100%;
     border: none;
