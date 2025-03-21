@@ -1,7 +1,6 @@
-
+ter
 .nav button {
-    display: flex;
-    flex-wrap: nowrap;
+    display: inline;
     position: relative;
     border: none;
     margin: 0;
@@ -15,10 +14,9 @@
     cursor: pointer;
 }
 .nav {
-    items-align: 
     padding-top: 5vh;
     padding-bottom: 2vh;
-    width: 60%;
+    width: 80%;
     padding-left: 20%;
     padding-right: 20%;
 }
