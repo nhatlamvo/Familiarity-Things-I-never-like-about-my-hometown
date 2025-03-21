@@ -8,8 +8,8 @@
 /*----------------------------Homepage Setting----------------------------*/
 body {
     background-image: url(image/bgg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
     background-color: white;
     /* backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);*/
