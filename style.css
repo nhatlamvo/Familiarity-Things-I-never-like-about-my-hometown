@@ -1,22 +1,25 @@
 /*--------------------Font family defining--------------------*/
-.pinyon-script-regular {
-  font-family: "Pinyon Script", cursive;
-  font-weight: 400;
+.crimson-pro {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 200; */
   font-style: normal;
+/* <weight>: Use a value from 200 to 900
+<uniquifier>: Use a unique and descriptive class name */
 }
+html {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 200; */
+    font-style: normal;
+    background-color: rgb(247, 244, 241);
+    color: rgb(97, 82, 76);
+    overflow: auto;
 
+}
 /*----------------------------Homepage Setting----------------------------*/
 body {
-    background-image: url(image/bgg.jpg);
-    background-repeat: repeat-y;
-    background-size: 100% auto;
-    background-color: white;
-    /* backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);*/
-    font-family: "Gentium Plus", serif;
-    font-style: normal;
-    color: black;
-    cursor: none;
+    /* cursor: none; */
     width: 100%;
     height: auto;
     border: none;
@@ -30,96 +33,86 @@ body img {
 
 /*--------------------Title on top-right corner--------------------*/
 .header p {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 64px;
+    /* line-height: 1.2; */
+    font-weight: 200;
+    letter-spacing: -0.025ch;
+
     position: fixed;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding: 2vh;
     margin: 0;
-    width: 100%;
+    width: auto;
     top: 0;
     left: 0;
     z-index: 8;
-    text-align: justify;
+    text-align: left;
 }
 
 /*--------------------Blurb | Overlay--------------------*/
 .blurb {
-    position: absolute;
-    /* display: inline; */
-    /* background-color: rgba(235, 55, 255, 0.5); */
-    background-color: white;
-    background-image: url(image/grid.png);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    width: 50%;
-    height: 100%;
+    position: fixed;
+    background-color: rgb(220, 244, 255);
+    /* background-image: url(image/grid.png); */
+    /* background-repeat: repeat-y; */
+    width: 40%;
+    height: 90vh;
+    max-height: 90vh;
     padding: 0;
-    margin: 0;
+    margin-top: 20px;
+    margin-right: 20px;
     top: 0;
     right: 0;
+    border-radius: 12px;
+    align-items: center;
     z-index: 10;
-    display: none;
-    overflow: auto; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: rgb(97, 82, 76);
+    font-family: "Crimson Pro", serif;
+    box-sizing: border-box;
 }
+.blurb p {
+    padding: 15vh 5vh 5vh 5vh;
+    margin: 0;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#close {
+    padding: 5vh 5vh;
+    margin: 0;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: right;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: rgb(97, 82, 76);
+    border: none;
+    cursor: pointer;
+}
+
 .blurb::-webkit-scrollbar {
     display: none;
 }
-.navigate p {
-  font-family: "Pinyon Script", cursive;
-  font-size: 28px;
-  line-height: 24px
-  text-align: justify;
-}
-#about p {
-    padding-left: 20vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    margin: 0;
-    font-size: 28px;
-    line-height: 24px;
-    left: 0;
-    /* top: 0; */
-    z-index: 3;
-    /* float: left; */
-    width: 250px;
+
+#soundscape p {
+    float: left;
+    width: auto;
     text-align: left;
 }
+ 
 
-/*to close the blurb*/
-#close p {
-    padding-right: 10vh;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
-    margin: 0;
-    font-size: 28px;
-    line-height: 24px;
-    right: 0;
-    float: right;
-    cursor: pointer;
-    font-family: "Pinyon Script", cursive;
-}
 
-#info p {
-    font-size: 18px;
-    line-height: 28px;
-    /* padding-top: 15vh;*/
-    padding-left: 20vh;
-    padding-right: 5vh;
-    padding-top: 10vh;
-    padding-bottom: 2vh;
-    margin: 0;
-    /* top: 20vh; */
-    left: 0;
-  text-align: left;
-  overflow-y: scroll;
-}
-#info::-webkit-scrollbar {
+
+/* #info::-webkit-scrollbar {
     display: none;
-}
-#about img {
+} */
+#soundscape img {
     width: 30px;
     height: auto;
     padding-right: 5px;
@@ -159,154 +152,149 @@ body img {
     background: black; /* Same color as thumb */
     display: none;
 }
+
+
+/*--------------------Menu--------------------*/
+.content ul {
+    /* text-transform: uppercase; */
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 1%;
+
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+
+    justify-content: left;
+    list-style-type: none;
+    bottom: 0;
+    left: 0;
+    padding: 5vh;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    color: rgb(97, 82, 76);
+}
+.content ul li {
+    cursor: pointer;
+    padding: 0;
+    float: none;
+    white-space: normal;
+}
+.content ul li:nth-child(even) {
+    transform: translateY(-50px);
+}
+
+/*--------------------Styles for hyperlinks--------------------*/
+li p:hover {
+    text-shadow: 0 0 10px #f6ff08;
+    /* background-image: url(image/grid2.png);
+    background-size: 100%;
+    background-repeat: repeat; */
+}
+
 /*disable button's style*/
 button {
     border: none;
     margin: 0;
+
     font-size: 28px;
-    line-height: 24px;
-    font-family: "Pinyon Script", cursive;
+    line-height: 28px;
+    font-weight: 200;
+    letter-spacing: 1%;
+    font-family: "Crimson Pro", serif;
     font-style: normal;
-    /* background-color: white; */
+    font-weight: 400;
+    color: rgb(97, 82, 76);
+
     background-color: Transparent;
     background-repeat: no-repeat;
     cursor: pointer;
-}
 
-a:link {
-    margin: 0;
-    font-size: 28px;
-    line-height: 32px;
-    font-family: "Pinyon Script", cursive;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-}
-a:visited {
-    margin: 0;
-    font-size: 28px;
-    line-height: 32px;
-    font-family: "Pinyon Script", cursive;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-}
-
-/*--------------------Menu--------------------*/
-.content ul {
-    
-    font-size: 24px;
-    line-height: 32px;
-    position: fixed;
-/*     display: inline-block; */
-    display: flex;
-    flex-wrap: nowrap;
-    list-style-type: none;
-    bottom: 0;
-    margin: 0;
-    left: 0;
-    padding-left: 5vh;
-    text-align: center;
-    padding-bottom: 2vh;
-    
-
-    /* overflow-x: scroll; */
-    /* width: 100%; */
-    /* float: left; */
-    /* white-space: nowrap; */
-}
-li {
-    cursor: pointer;
-    padding-right: 1.5vh;
-    float: left;
-    
-    /* height: 60px; */
-    /* left: 0; */
-}
-
-li:nth-child(even) {
-    transform: translateY(-35px);
-}
-/*--------------------Effects when hovering buttons--------------------*/
-li p:hover {
-    text-shadow: 0 0 10px #f6ff08;
-    background-image: url(image/grid2.png);
-    background-size: 100%;
-    background-repeat: repeat;
-}
-a:hover {
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    text-shadow: 0 0 10px #f6ff08;
-    background-image: url(image/grid2.png);
-    background-size: 100%;
-    background-repeat: repeat;
 }
 button:hover {
     text-shadow: 0 0 10px #f6ff08;
-    background-image: url(image/grid2.png);
+    /* background-image: url(image/grid2.png);
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: repeat; */
 }
+
+a {
+        font-weight: 400;
+        letter-spacing: 1%;
+
+        margin: 0;
+        font-size: 28px;
+        line-height: 28px;
+        font-family: "Crimson Pro", serif;
+        font-style: normal;
+        text-decoration: none;
+        color: rgb(97, 82, 76);
+    padding: 0;
+}
+a:hover {
+    text-shadow: 0 0 10px #f6ff08;
+}
+
 #close p:hover {
     text-shadow: 0 0 10px #f6ff08;
 }
 
 /*--------------------Settings for Responsiveness--------------------*/
-@media screen and (max-width: 1000px) {
-    #read01 p,
-    #read02 p,
-    #read03 p,
-    #read04 p,
-    #read05 p,
-    #read06 p,
-    #read07 p,
-    #read08 p,
-    #read09 p,
-    #read10 p {
-        font-size: 20px;
-        line-height: 28px;
+@media (max-width: 768px) {
+    .header p {
+        font-size: 42px;
+        line-height: 48px;
     }
     .content ul {
-        font-size: 20px;
-        line-height: 28px;
-        padding-left: 2.5vh;
-        flex-wrap: wrap;
-    }
-    .content li {
-        height: 25px;
-        padding-bottom: 2vh;
-    }
-    .content li:nth-child(even) {
-        transform: none;
-    }
-
-    .header p {
-        padding-left: 2.5vh;
-        padding-right: 2.5vh;
+        font-size: 22px;
+        line-height: 30px;
+        gap: 1vw;}
+    /* .blurb {
+        width: 100%;
+        height: 50%;
+        top: auto;
+        bottom: 0;
+        right: 0;
+    } */
+    /* #about p {
+        padding-left: 10vh;
+        padding-top: 1vh;
         padding-bottom: 1vh;
-        width: 90%;
-        line-height: 32px;
-    }
-    #info p {
-        font-size: 20px;
-        line-height: 28px;
-        padding-left: 10vh;
-        padding-right: 5vh;
-    }
-    #about p,
-    #volume-container {
-        padding-left: 10vh;
-        width: 145px;
+        font-size: 18px;
+        line-height: 24px;
     }
     #close p {
         padding-right: 5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: 18px;
+        line-height: 24px;
     }
-    .blurb p {
-        display: inline-block;
+    #info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 10vh;
+        padding-right: 5vh;
+        padding-top: 5vh; */
     }
-    video {
-        padding-top: 3vh;
+
+@media (max-width: 375px) {
+     .header p {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    a, button {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .content ul li {
+        font-size: 18px;
+        line-height: 24px;
+        gap: 20px;
     }
 }
