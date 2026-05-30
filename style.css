@@ -35,7 +35,7 @@ body img {
 /*--------------------Title on top-right corner--------------------*/
 .header p {
     font-size: 64px;
-    /* line-height: 1.2; */
+    line-height: 1;
     font-weight: 200;
     letter-spacing: -0.025ch;
 
@@ -50,7 +50,7 @@ body img {
 }
 
 /*--------------------Blurb | Overlay--------------------*/
-.blurb {
+.about {
     display: none;
 
     position: fixed;
@@ -58,8 +58,8 @@ body img {
     backdrop-filter: blur(6px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-    width: 40%;
-    height: 80vh;
+    width: 35%;
+    height: 70vh;
     /* max-height: 90vh; */
     padding: 0;
     margin-top: 20px;
@@ -76,7 +76,7 @@ body img {
     font-family: "Crimson Pro", serif;
     box-sizing: border-box;
 }
-.blurb p {
+.about p {
     padding: 15vh 5vh 5vh 5vh;
     margin: 0;
     font-size: 24px;
@@ -101,7 +101,7 @@ body img {
     cursor: pointer;
 }
 
-.blurb::-webkit-scrollbar {
+.about::-webkit-scrollbar {
     display: none;
 }
 
@@ -185,6 +185,14 @@ body img {
     
 }
 
+.main-separator {
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    white-space: normal;
+}
+
 
 /*--------------------ASCII Slider (bottom-right)--------------------*/
 .ascii-slider {
@@ -199,9 +207,10 @@ body img {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
     padding: 0.4rem 1rem;
-    border-radius: 8px;
+    border-radius: 10px;
     z-index: 12;
-    font-size: 18px;
+
+    font-size: 16px;
     font-family: "Crimson Pro", serif;
     outline: none;
     
@@ -217,7 +226,7 @@ body img {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
     width: 220px;
-    height: 6px;
+    height: 4px;
     border-radius: 3px;
     background-color: rgb(97,82,76);
     outline: none;
@@ -225,10 +234,13 @@ body img {
 
 .ascii-slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
-    appearance: none;
+    /* appearance: none;  */
     width: 4px; /* Smaller slider handle width */
     height: 4px; /* Smaller slider handle height */
-    background: rgb(220, 244, 255); /* Brown thumb */
+    /* background: rgb(220, 244, 255); */
+    background-image: url(image/me.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ascii-slider #separatorWidthValue {
@@ -300,56 +312,70 @@ a:hover {
 }
 
 /*--------------------Settings for Responsiveness--------------------*/
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .header p {
-        font-size: 42px;
-        line-height: 48px;
+        font-size: 58px;
     }
-    .content ul {
-        font-size: 22px;
-        line-height: 30px;
-        gap: 1vw;}
-    /* .blurb {
-        width: 100%;
-        height: 50%;
-        top: auto;
-        bottom: 0;
-        right: 0;
-    } */
-    /* #about p {
-        padding-left: 10vh;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        font-size: 18px;
-        line-height: 24px;
+
+    .about {
+        padding: 2vh 2vw;
+        width: 85%;
+        height: 80vh;
     }
-    #close p {
-        padding-right: 5vh;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        font-size: 18px;
-        line-height: 24px;
+
+    .about p {
+        padding: 10vh 3vw 3vh 3vw;
     }
-    #info p {
-        font-size: 14px;
-        line-height: 20px;
-        padding-left: 10vh;
-        padding-right: 5vh;
-        padding-top: 5vh; */
+
+    a, button, .main p, .about p, .main-separator {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .main {
+        padding-bottom: 6vh;
+    }
+
+    .ascii-slider {
+        right: 50%;   
+        transform: translateX(50%);
+        padding: 0.8rem 1.2rem;
+        border-radius: 16px;
+        font-size: 24px;
     }
 
 @media (max-width: 375px) {
-     .header p {
-        font-size: 36px;
-        line-height: 42px;
+    .header p {
+        font-size: 28px;
+        letter-spacing: -0.03ch;
     }
-    a, button {
-        font-size: 18px;
-        line-height: 24px;
+
+    .about {
+        width: 80%;
+        height: 80vh;
     }
-    .content ul li {
-        font-size: 18px;
-        line-height: 24px;
-        gap: 20px;
+
+    .about p {
+        padding: 12vh 4vw 4vh 4vw;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    a, button, .main p, .main-separator {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .ascii-slider {
+        right: 50%;   
+        transform: translateX(50%);
+        padding: 0.4rem 0.6rem;
+        border-radius: 8px;
+        font-size: 12px;
+        bottom: 1rem;
+    }
+
+    .ascii-slider input[type="range"] {
+        height: 3px;
     }
 }

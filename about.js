@@ -1,7 +1,7 @@
 function on() {
-  document.getElementsByClassName("blurb")[0].style.display = "block";
+  document.getElementsByClassName("about")[0].style.display = "block";
 }
 
 function off() {
-  document.getElementsByClassName("blurb")[0].style.display = "none";
+  document.getElementsByClassName("about")[0].style.display = "none";
 }

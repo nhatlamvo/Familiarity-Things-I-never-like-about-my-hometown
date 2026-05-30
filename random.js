@@ -86,7 +86,7 @@ function replaceAsciiSeparators() {
       replacementChars.push(pickRandom(selectedSymbols));
     }
 
-    return replacementChars.join("");
+    return `<span class="main-separator">${replacementChars.join("")}</span>`;
   });
 
   mainParagraph.innerHTML = replaced;
