@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 9 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page9" id="page9">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/vie04.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen09" onclick="playAudio('audio09')">(nghe)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          My eyes are small,<br>
+          even if I try to stretch them out and the inside’s gone dry.<br>
+          There’s like a wave of blue darkening in it.<br>
+          It reaches the edge then waves back in,<br>
+          and circles around a block of shimmering yellow.<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio09" controls>
+      <source src="audio/vie04.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

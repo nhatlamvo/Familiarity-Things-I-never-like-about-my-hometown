@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 4 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page4" id="page4">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/eng04.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen04" onclick="playAudio('audio04')">(listen)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Nắng còn trong nắng.<br>
+          Gió còn trong gió.<br>
+          Lời họ nói cho nhau nghe.<br>
+          Cả sự nhớp nháp trên làn da.<br>
+          Lời tôi nói có ai nghe.<br>
+          Thoáng nếm được vị mặn còn vương trong gió.<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio04" controls>
+      <source src="audio/eng04.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

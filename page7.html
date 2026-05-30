@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 7 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page7" id="page7">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/vie02.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen07" onclick="playAudio('audio07')">(nghe)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          This land will always be hot and humid,<br>
+          though it knows how much one wishes for a cool breeze.<br>
+          It grew in my body<br>
+          that out of this heat comes refreshment,<br>
+          out of refreshment comes completeness; so I called for freezing air.<br>
+          But floating,<br>
+          my words.<br>
+          Frozen,<br>
+          I said.<br>
+          For warmness,<br>
+          now<br>
+          I long...<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio07" controls>
+      <source src="audio/vie02.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

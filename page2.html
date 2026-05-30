@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page2" id="page2">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/eng02.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen02" onclick="playAudio('audio02')">(listen)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Trong cái nắng chiều đang tàn dần,<br>
+          bọn chim chóc ồn ào, ngọn gió như dịu đi hẳn.<br>
+          Tôi ngồi lặng thinh<br>
+          với những cơn sóng.<br>
+          Nếu biển cả trước mắt là giới hạn của nơi này,<br>
+          tôi chọn chôn cất tâm hồn mình ở đây,<br>
+          chôn đi những mảnh mềm yếu đã mục nát,<br>
+          với tất cả lòng nhiệt thành.<br>
+          Phần còn lại vẫn gắn với cơ thể của nó.<br>
+          Để mảnh đất này giữ riêng trong nó một phần của tôi,<br>
+          còn tôi<br>
+          vẫn là một sự sống rắn rỏi ngoài kia.
+        </p>
+      </div>
+    </div>
+    <audio id="audio02" controls>
+      <source src="audio/eng02.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

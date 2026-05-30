@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 8 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page8" id="page8">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/vie03.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen08" onclick="playAudio('audio08')">(nghe)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Nơi này<br>
+          vẫn luôn oi bức, dù nó biết người ta mong mỏi mọt làn gió mát.<br>
+          Tôi từng cho rằng<br>
+          thoát khỏi cái nóng bức này sẽ thấy sảng khoái, và sự sảng khoái sẽ khiến tôi mãn nguyện;<br>
+          nên tôi luôn khao khát một luồng khí lạnh.<br>
+          Nhưng trôi dạt đâu mất,<br>
+          lời tôi.<br>
+          Nghẹn ngào nói không nên lời.<br>
+          Bây giờ,<br>
+          tôi mong mỏi sự ấm áp kia.
+        </p>
+      </div>
+    </div>
+    <audio id="audio08" controls>
+      <source src="audio/vie03.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
-const modalBtns = document.querySelectorAll(".close-btn-overlay"); // Select all close buttons
-const openModal1 = document.getElementById("piece01"); // phrases from the list
+const modalBtns = document.querySelectorAll(".close-btn-overlay");
+const openModal1 = document.getElementById("piece01");
 const openModal2 = document.getElementById("piece02");
 const openModal3 = document.getElementById("piece03");
 const openModal4 = document.getElementById("piece04");
@@ -21,62 +21,121 @@ const modal9 = document.getElementById("page9");
 const modal10 = document.getElementById("page10");
 let curModal = null;
 
-//Function to show a specific modal
 function showModal(modalId) {
   curModal = document.getElementById(modalId);
   curModal.style.display = "block";
 }
 
-//Function to hide the currently visible modal
 function hideModal() {
   if (curModal) {
     curModal.style.display = "none";
     if (currentAudio) {
-      currentAudio.pause(); /*stop current audio when closing the overlay and */
-      currentAudio = null; /*allow the new audio to play when clicked */
+      currentAudio.pause();
+      currentAudio = null;
     }
-    // currentAudio.currentTime = 0;
   }
 }
 
-// Loop through all close buttons and add event listener
 modalBtns.forEach((btn) => {
   btn.addEventListener("click", hideModal);
 });
 
-// Open modal 1 on button click
 openModal1.addEventListener("click", () => showModal("page1"));
-
-// Open modal 2 on button click
 openModal2.addEventListener("click", () => showModal("page2"));
-
-// Open modal 3 on button click
 openModal3.addEventListener("click", () => showModal("page3"));
-
-// Open modal 4 on button click
 openModal4.addEventListener("click", () => showModal("page4"));
-
-// Open modal 5 on button click
 openModal5.addEventListener("click", () => showModal("page5"));
-//////////////////////////////////
-// Open modal 6 on button click
 openModal6.addEventListener("click", () => showModal("page6"));
-
-// Open modal 7 on button click
 openModal7.addEventListener("click", () => showModal("page7"));
-
-// Open modal 8 on button click
 openModal8.addEventListener("click", () => showModal("page8"));
-
-// Open modal 9 on button click
 openModal9.addEventListener("click", () => showModal("page9"));
-
-// Open modal 10 on button click
 openModal10.addEventListener("click", () => showModal("page10"));
 
-// //////////////////////////////////////////////////////
-// // Close modal on button click (can be looped for all close buttons)
-// modalBtns[0].addEventListener("click", () => hideModal("video01"));
+function openPage(pageNumber) {
+  const url = `page${pageNumber}.html`;
+  window.open(
+    url,
+    `page${pageNumber}`,
+    "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=700"
+  );
+}
 
-// // Add similar event listener for the close button of modal 2
-// modalBtns[1].addEventListener("click", () => hideModal("video02"));
+function on1() {
+  openPage(1);
+}
+
+function off1() {
+  hideModal();
+}
+
+function on2() {
+  openPage(2);
+}
+
+function off2() {
+  hideModal();
+}
+
+function on3() {
+  openPage(3);
+}
+
+function off3() {
+  hideModal();
+}
+
+function on4() {
+  openPage(4);
+}
+
+function off4() {
+  hideModal();
+}
+
+function on5() {
+  openPage(5);
+}
+
+function off5() {
+  hideModal();
+}
+
+function on6() {
+  openPage(6);
+}
+
+function off6() {
+  hideModal();
+}
+
+function on7() {
+  openPage(7);
+}
+
+function off7() {
+  hideModal();
+}
+
+function on8() {
+  openPage(8);
+}
+
+function off8() {
+  hideModal();
+}
+
+function on9() {
+  openPage(9);
+}
+
+function off9() {
+  hideModal();
+}
+
+function on10() {
+  openPage(10);
+}
+
+function off10() {
+  hideModal();
+}

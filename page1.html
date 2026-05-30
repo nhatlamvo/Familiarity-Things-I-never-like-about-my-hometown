@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 1 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page1" id="page1">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop autoplay muted>
+        <source src="video/eng01.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen01" onclick="playAudio('audio01')">(listen)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          In this dying glow of orange,<br>
+          noisy is the bird,<br>
+          softer is the wind.<br>
+          Silent I get, with the waves.<br>
+          If the ocean in my eyeballs is the limit of this land,<br>
+          I will bury my soul here, with all willingness,<br>
+          only the soul of rotten vulnerability.<br>
+          The rest will stay<br>
+          with its body,<br>
+          so that the land has me partly<br>
+          and I am still a mighty existence out there.
+        </p>
+      </div>
+    </div>
+    <audio id="audio01" controls>
+      <source src="audio/eng01.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

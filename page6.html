@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 6 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page6" id="page6">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/vie01.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen06" onclick="playAudio('audio06')">(nghe)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Vài điều tôi vẫn cố lảng tránh.<br>
+          Vàng?<br>
+          Trắng?<br>
+          Xanh da trời?<br>
+          Một màu xanh dịu mắt thì tốt biết mấy…<br>
+          Chỉ vừa bắt đầu hay đang kết thúc?<br>
+          Họ đang trở về hay sắp rời đi? Câu trả lời có vẻ không cần thiết.<br>
+          Không gì<br>
+          cần thiết vào lúc này.<br>
+          Trống rỗng đến sảng khoái.<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio06" controls>
+      <source src="audio/vie01.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

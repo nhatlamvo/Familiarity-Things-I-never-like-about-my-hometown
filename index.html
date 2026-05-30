@@ -32,14 +32,14 @@
                     , I see my reflection
                     <a
                         href="https://maps.app.goo.gl/82Ngcbv8Ny59r9fe7"
-                        onclick="window.open(this.href, 'mapPopup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=900,height=700'); return false;"
+                        onclick="window.open(this.href, 'mapPopup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400,height=400'); return false;"
                     >
                         (there)
                     </a>
                     . tâm hồn Tôi
                     <a
                         href="https://maps.app.goo.gl/82Ngcbv8Ny59r9fe7"
-                        onclick="window.open(this.href, 'mapPopup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=900,height=700'); return false;"
+                        onclick="window.open(this.href, 'mapPopup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=400,height=400'); return false;"
                     >
                         (len lỏi)
                     </a>
@@ -72,29 +72,44 @@
                 <li id="piece05">
                     <p>Thoughts</p>
                 </li>
-                <!-- </ul> -->
-                <!-- </div> -->
-                <!-- --------------Menu | Vie-------------- -->
-                <!-- <div class="vie"> -->
-                <!-- <ul data-current="0"> -->
+                <!-- -----open modal 1----- -->
                 <li id="piece06">
                     <p>sảng khoái.</p>
                 </li>
+                <!-- -----open modal 1----- -->
                 <li id="piece07">
                     <p>This land</p>
                 </li>
+                <!-- -----open modal 1----- -->
                 <li id="piece08">
                     <p>ấm áp kia.</p>
                 </li>
+                <!-- -----open modal 1----- -->
                 <li id="piece09">
                     <p>My eyes</p>
                 </li>
+                <!-- -----open modal 1----- -->
                 <li id="piece10">
                     <p>ánh vàng.</p>
                 </li>
             </ul>
         </div>
-        <!-- </div> -->
+        <!-- --------------Main Content Section - new layout 250530-------------- -->
+        <div class="main">
+                <p>
+                    ~~~~~~~~~~~~~~~~~~~~<button onclick="on1()">(in this dying glow of orange)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on2()">(sự sống rắn rỏi ngoài kia)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on3()">(sun between sun)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on4()">(vị mặn còn vương trong gió)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on5()">(thoughts in the back of my mind)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on6()">(trống rỗng đến sảng khoái)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on7()">(this land will always be hot)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on8()">(bây giờ, tôi mong mỏi sự ấm áp kia)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on9()">(my eyes are small, even if I try)</button>~~~~~~~~~~
+                    ~~~~~~~~~~<button onclick="on10()">(bao quanh một mảng lung linh ánh vàng)</button>~~~~~~~~~~~~~~~~~~~~
+                </p>    
+        </div>
+
 
         <!-- --------------------------Overlay-------------------------- -->
 
@@ -115,313 +130,18 @@
             </div>
         </div>
 
-        <!-- ------------------------OOOOOOOOOOOVERLAYYYYYYYYYYYYYY------------------------ -->
-        <!-- ------------------------Audio play on click------------------------ -->
-        <div class="audio-container">
-            <!-- ------------------ENG------------------ -->
-            <audio id="myAudio" controls loop>
-                <source src="audio/audio0.mp3" />
-            </audio>
-            <audio id="audio01" controls>
-                <source src="audio/eng01.mp3" />
-            </audio>
-            <audio id="audio02" controls>
-                <source src="audio/eng02.mp3" />
-            </audio>
-            <audio id="audio03" controls>
-                <source src="audio/eng03.mp3" />
-            </audio>
-            <audio id="audio04" controls>
-                <source src="audio/eng04.mp3" />
-            </audio>
-            <audio id="audio05" controls>
-                <source src="audio/eng05.mp3" />
-            </audio>
-            <!-- ------------------VIE------------------ -->
-            <audio id="audio06" controls>
-                <source src="audio/vie01.mp3" />
-            </audio>
-            <audio id="audio07" controls>
-                <source src="audio/vie02.mp3" />
-            </audio>
-            <audio id="audio08" controls>
-                <source src="audio/vie03.mp3" />
-            </audio>
-            <audio id="audio09" controls>
-                <source src="audio/vie04.mp3" />
-            </audio>
-            <audio id="audio10" controls>
-                <source src="audio/vie05.mp3" />
-            </audio>
-        </div>
-        <!-- ------------------------OVERLAY------------------------ -->
-        <div class="overlay">
-            <div class="page page1" id="page1">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/eng01.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen01" onclick="playAudio('audio01')">
-                        (listen)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        In this dying glow of orange,<br>
-                        noisy is the bird,<br>
-                        softer is the wind.<br>
-                        Silent I get, with the waves.<br>
-                        If the ocean in my eyeballs is the limit of this land,<br>
-                        I will bury my soul here, with all willingness,<br>
-                        only the soul of rotten vulnerability.<br>
-                        The rest will stay<br>
-                        with its body,<br>
-                        so that the land has me partly<br>
-                        and I am still a mighty existence out there.
-                    </p>
-                </div>
-            </div>
-            <div class="page page2" id="page2">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/eng02.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen02" onclick="playAudio('audio02')">
-                        (listen)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Trong cái nắng chiều đang tàn dần,<br>
-                        bọn chim chóc ồn ào, ngọn gió như dịu đi hẳn.<br>
-                        Tôi ngồi lặng thinh<br>
-                        với những cơn sóng.<br>
-                        Nếu biển cả trước mắt là giới hạn của nơi này,<br>
-                        tôi chọn chôn cất tâm hồn mình ở đây,<br>
-                        chôn đi những mảnh mềm yếu đã mục nát,<br>
-                        với tất cả lòng nhiệt thành.<br>
-                        Phần còn lại vẫn gắn với cơ thể của nó.<br>
-                        Để mảnh đất này giữ riêng trong nó một phần của tôi,<br>
-                        còn tôi<br>
-                        vẫn là một sự sống rắn rỏi ngoài kia.
-
-                    </p>
-                </div>
-            </div>
-            <div class="page page3" id="page3">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/eng03.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen03" onclick="playAudio('audio03')">
-                        (listen)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Sun between sun.<br>
-                        Wind between wind.<br>
-                        Words between people.<br>
-                        Even stickiness on my skin.<br>
-                        My words between nowhere.
-                        (Where do my words belong to?)<br>
-                        A place in salty air.<br>
-
-                        
-                    </p>
-                </div>
-            </div>
-            <div class="page page4" id="page4">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/eng04.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen04" onclick="playAudio('audio04')">
-                        (listen)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Nắng còn trong nắng.<br>
-                        Gió còn trong gió.<br>
-                        Lời họ nói cho nhau nghe.<br>
-                        Cả sự nhớp nháp trên làn da.<br>
-                        Lời tôi nói có ai nghe.<br>
-                        Thoáng nếm được vị mặn còn vương trong gió.<br>
-                    </p>
-                </div>
-            </div>
-            <div class="page page5" id="page5">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/eng05.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen05" onclick="playAudio('audio05')">
-                        (listen)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                     
-                        
-                        Thoughts in the back of my mind.<br>
-                        Is it yellow?<br>
-                        Is it white?<br>
-                        Shouldn’t it be blue?<br>
-                        A powder blue…<br>
-                        Is it the opening?<br>
-                        Is it ending itself?<br>
-                        Are they coming home or leaving it?<br>
-                        I seek no answer.
-                        I seek nothing now.<br>
-                        A pleasant emptiness.<br>
-
-                       
-                    </p>
-                </div>
-            </div>
-            <div class="page page6" id="page6">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/vie01.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen06" onclick="playAudio('audio06')">
-                        (nghe)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Vài điều tôi vẫn cố lảng tránh.<br>
-                        Vàng?<br>
-                        Trắng?<br>
-                        Xanh da trời?<br>
-                        Một màu xanh dịu mắt thì tốt biết mấy…<br>
-                        Chỉ vừa bắt đầu hay đang kết thúc?<br>
-                        Họ đang trở về hay sắp rời đi? Câu trả lời có vẻ không cần thiết.<br>
-                        Không gì<br>
-                        cần thiết vào lúc này.<br>
-                        Trống rỗng đến sảng khoái.<br>
-
-                    </p>
-                </div>
-            </div>
-            <div class="page page7" id="page7">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/vie02.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen07" onclick="playAudio('audio07')">
-                        (nghe)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        This land will always be hot and humid,<br>
-                        though it knows how much one wishes for a cool breeze.<br>
-                        It grew in my body<br>
-                        that out of this heat comes refreshment,<br>
-                        out of refreshment comes completeness; so I called for freezing air.<br>
-                        But floating,<br>
-                        my words.<br>
-                        Frozen,<br>
-                        I said.<br>
-                        For warmness,<br>
-                        now<br>
-                        I long...<br>
-                    </p>
-                </div>
-            </div>
-            <div class="page page8" id="page8">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/vie03.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen08" onclick="playAudio('audio08')">
-                        (nghe)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Nơi này<br>
-                        vẫn luôn oi bức, dù nó biết người ta mong mỏi mọt làn gió mát.<br>
-                        Tôi từng cho rằng<br>
-                        thoát khỏi cái nóng bức này sẽ thấy sảng khoái, và sự sảng khoái sẽ khiến tôi mãn nguyện;
-                        nên tôi luôn khao khát một luồng khí lạnh.<br>
-                        Nhưng trôi dạt đâu mất,<br>
-                        lời tôi.<br>
-                        Nghẹn ngào nói không nên lời.<br>
-                        Bây giờ,<br>
-                        tôi mong mỏi sự ấm áp kia.
-                    </p>
-                </div>
-            </div>
-            <div class="page page9" id="page9">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/vie04.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen09" onclick="playAudio('audio09')">
-                        (nghe)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        My eyes are small,<br>
-                        even if I try to stretch them out and the inside’s gone dry.<br>
-                        There’s like a wave of blue darkening in it.<br>
-                        It reaches the edge then waves back in,<br>
-                        and circles around a block of shimmering yellow.<br>
-                  
-                    </p>
-                </div>
-            </div>
-            <div class="page page10" id="page10">
-                <button class="close-btn-overlay">(X)</button>
-                <video autoplay loop muted>
-                    <source src="video/vie05.mp4" type="video/mp4" />
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="nav">
-                    <button id="listen10" onclick="playAudio('audio10')">
-                        (nghe)
-                    </button>
-                </div>
-                <div class="page-text">
-                    <p>
-                        Đôi mắt này,<br>
-                        nó nhỏ,<br>
-                        dù cho có cố mở to đến mức khô rát.<br>
-                        Trên kia<br>
-                        vẫn là một dải màu xanh.<br>
-                        Nó vươn đến bên rìa rồi dội ngược lại vào trong,<br>
-                        và bao quanh một mảng lung linh ánh vàng.
-                    </p>
-                </div>
-            </div>
+<!-- ASCII separator width slider (bottom-right) -->
+        <div class="ascii-slider" id="asciiSliderContainer">
+            <label for="separatorWidth">0</label>
+            <input id="separatorWidth" type="range" min="10" max="100" value="20" />
+            <span id="separatorWidthValue">20</span>
         </div>
 
-        <!-- --------------Customized Cursor-------------- -->
+<!-- --------------Customized Cursor-------------- -->
         <div class="cursor">
             <div><img src="image/me02.png" /></div>
         </div>
+       
     </body>
 </html>
 
@@ -431,5 +151,6 @@
 <script type="text/javascript" src="about.js"></script>
 <!-- <script type="text/javascript" src="video01.js"></script> -->
 <script type="text/javascript" src="overlay.js"></script>
+<script type="text/javascript" src="random.js"></script>
 <script type="text/javascript" src="audio.js"></script>
 <!-- <script type="text/javascript" src="soundscape.js"></script> -->

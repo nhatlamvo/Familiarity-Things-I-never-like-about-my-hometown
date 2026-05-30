@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 10 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page10" id="page10">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/vie05.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen10" onclick="playAudio('audio10')">(nghe)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Đôi mắt này,<br>
+          nó nhỏ,<br>
+          dù cho có cố mở to đến mức khô rát.<br>
+          Trên kia<br>
+          vẫn là một dải màu xanh.<br>
+          Nó vươn đến bên rìa rồi dội ngược lại vào trong,<br>
+          và bao quanh một mảng lung linh ánh vàng.
+        </p>
+      </div>
+    </div>
+    <audio id="audio10" controls>
+      <source src="audio/vie05.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

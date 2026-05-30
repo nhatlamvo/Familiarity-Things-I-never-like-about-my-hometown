@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 5 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page5" id="page5">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/eng05.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen05" onclick="playAudio('audio05')">(listen)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Thoughts in the back of my mind.<br>
+          Is it yellow?<br>
+          Is it white?<br>
+          Shouldn’t it be blue?<br>
+          A powder blue…<br>
+          Is it the opening?<br>
+          Is it ending itself?<br>
+          Are they coming home or leaving it?<br>
+          I seek no answer.<br>
+          I seek nothing now.<br>
+          A pleasant emptiness.<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio05" controls>
+      <source src="audio/eng05.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>

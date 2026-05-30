@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3 — Familiarity</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="overlay.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        font-family: 'Crimson Pro', serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page page3" id="page3">
+      <button class="close-btn-overlay" onclick="window.close()">(X)</button>
+      <video autoplay loop muted>
+        <source src="video/eng03.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="nav">
+        <button id="listen03" onclick="playAudio('audio03')">(listen)</button>
+      </div>
+      <div class="page-text">
+        <p>
+          Sun between sun.<br>
+          Wind between wind.<br>
+          Words between people.<br>
+          Even stickiness on my skin.<br>
+          My words between nowhere.<br>
+          (Where do my words belong to?)<br>
+          A place in salty air.<br>
+        </p>
+      </div>
+    </div>
+    <audio id="audio03" controls>
+      <source src="audio/eng03.mp3" />
+    </audio>
+    <script src="audio.js"></script>
+  </body>
+</html>
