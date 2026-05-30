@@ -25,19 +25,20 @@
 }
 
 .nav {
-    /* display: flex; */
-    display: none;
-    justify-content: center;
+    display: flex;
+    /* display: none; */
+    align-items: center;
     gap: 2rem;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    width: 100%;
-    padding-left: 0;
     background-color: none;
 }
 
 .page::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
+    width: 5px;
+}
+.page::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 220, 223);
+    border-radius: 1.5px;
 }
 
 body > .page {
@@ -119,4 +120,11 @@ video {
     margin: 0;
     border: none;
 }
+
+audio {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
 
