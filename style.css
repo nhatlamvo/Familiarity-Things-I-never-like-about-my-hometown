@@ -344,9 +344,9 @@ a:hover {
         font-size: 24px;
     }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .header p {
-        font-size: 28px;
+        font-size: 36px;
         letter-spacing: -0.03ch;
     }
 
@@ -362,8 +362,8 @@ a:hover {
     }
 
     a, button, .main p, .main-separator {
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 22px;
+        line-height: 20px;
     }
 
     .ascii-slider {
